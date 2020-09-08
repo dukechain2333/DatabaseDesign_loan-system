@@ -197,7 +197,7 @@ public class loan_system {
         Class.forName("com.mysql.cj.jdbc.Driver");
         String url = "jdbc:mysql://localhost:3306/loan_system?serverTimezone=Asia/Shanghai";
         String user = "root";
-        String password = "enter your password here";
+        String password = "qian258046";
         Connection connection = DriverManager.getConnection(url, user, password);
         if (!connection.isClosed())
             System.out.println("连接数据库成功");
